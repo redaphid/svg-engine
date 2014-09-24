@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('coffee', function(){
-  gulp.src('./public/app/*.coffee')
+  gulp.src('./public/source/**/*.coffee')
     .pipe(sourcemaps.init())
     .pipe(coffee())
     .pipe((concat('dist.js')))
