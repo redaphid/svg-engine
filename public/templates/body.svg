@@ -1,0 +1,1 @@
+<rect ng-attr-width="{{entity.width}}" ng-attr-height="{{entity.height}}"/>
