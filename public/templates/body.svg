@@ -1,1 +1,3 @@
-<rect ng-attr-width="{{entity.width}}" ng-attr-height="{{entity.height}}"/>
+<g ng-attr-transform="{{ 'translate(' + entity.state.pos.x + ',' + entity.state.pos.y + ')' }}">
+	<rect ng-attr-width="{{entity.width}}" ng-attr-height="{{entity.height}}"/>
+</g>
