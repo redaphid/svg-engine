@@ -9,6 +9,6 @@ angular.module 'quiver'
 				x: 250
 				y: 250
 				width: 50
-				height: 50
+				height: 500
 
 			world.add square

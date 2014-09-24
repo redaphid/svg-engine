@@ -13,3 +13,7 @@ gulp.task('coffee', function(){
 });
 
 gulp.task('default', ['coffee']);
+
+gulp.task('watch', ['default'], function() {
+  gulp.watch(['./public/source/**/*.coffee'], ['coffee']);
+});
