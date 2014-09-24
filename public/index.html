@@ -1,11 +1,14 @@
 <!doctype html>
 <html ng-app="quiver">
 	<head>
+		<link rel="stylesheet" type="text/css" href="/style.css">
 		<script src="/lib/angular.min.js"></script>
 		<script src="/lib/physicsjs.min.js"></script>	
 	</head>
 	<body ng-controller="MainController">	
-	<hi>{{hi}}</hi>
+	<svg id="game">
+		<custom-circle radius="50"/>
+	</svg>
 	<script src="/dist/dist.js"></script>
 	</body>
 
